@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather " rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="textingame1" class="textingame1">Number Guessing Game</h1>
+  <table>
+    <tr>
+      <td>
+        <h2 id="textingame2" class="textingame2">&emsp;&emsp;&emsp;&emsp;The Play&emsp; </h2>
+      </td>
+      <td>
+        <div class="theplay">
+          <p>&nbsp;
+            We have selected a random number between 1 and 100. See
+            if you can guess it in <br>10 turns or less.
+            We’ll tell you if your guess was too high or to low.
+            &nbsp;</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <div class="form">
+    <input type="text" id="numberguess" class="numberguess" 
+    placeholder="Enter a Number (1-100)">
+    <input type="submit" value="Submit guess" 
+    class="submitguess" id="submitguess">
+  </div>
+  <br>
+  <table align="center">
+    <tr>
+      <td>
+        <div class="result"></div>
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        <h2 id="textingame2" class="textingame2">&emsp;&emsp;&emsp;&emsp;History&emsp;</h2>
+      </td>
+      <td class="history"></td>
+      <td>
+        <div class="turn"></div>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <a href="index.html"><button>Restart Game</button></a>
+  <script src="index.js"></script>
+</body>
+
+</html>

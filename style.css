@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: #FF99FF;
+  }
+  
+  .textingame1{
+    font-size: 5rem;
+    color: #663366;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #FFCCFF;
+  }
+  
+    
+  .textingame2{
+    font-size: 2.5rem;
+    color: #663366;
+    font-family: "Lobster", cursive;
+    text-shadow: 2.5px 0 #FFCCFF;
+    
+  }
+  .theplay{
+    font-size: 1.5rem;
+    color:   #FFFFFF;
+    font-family: "Merriweather", cursive;
+    
+  }
+  
+  .numberguess{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-family: "Merriweather", cursive;
+  }
+
+  .submitguess{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-family: "Merriweather", cursive;
+    background-color:#993366;
+  }
+
+  .result{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-family: "Merriweather", cursive;
+    background-color: rgb(255, 0, 64);
+
+  }
+
+  .history{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-family: "Merriweather", cursive;
+  }
+  .turn{
+    font-size: 1rem;
+    color:  #FFFFFF;
+    font-family: "Merriweather", cursive;
+    background-color: rgb(255, 0, 64);
+  }
+  button{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: "Merriweather", cursive;
+    background-color: #993366;
+  }
+  
