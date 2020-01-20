@@ -20,7 +20,7 @@ body {
   }
   .theplay{
     font-size: 1.5rem;
-    color:   #FFFFFF;
+    color:   #663366;
     font-family: "Merriweather", cursive;
     
   }
@@ -40,7 +40,7 @@ body {
 
   .result{
     font-size: 1rem;
-    color: #FFFFFF;
+    color: #663366;
     font-family: "Merriweather", cursive;
     background-color: rgb(255, 0, 64);
 
@@ -48,12 +48,12 @@ body {
 
   .history{
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: #663366;
     font-family: "Merriweather", cursive;
   }
   .turn{
     font-size: 1rem;
-    color:  #FFFFFF;
+    color:  #663366;
     font-family: "Merriweather", cursive;
     background-color: rgb(255, 0, 64);
   }
